@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="border left">
+            <h1>Todo List:</h1>
+            <input type="text" id="todo-item" placeholder="todo ..." />
+            <button id="add">Add</button>
+
+            <ul id="todo-list" class="list"></ul>
+        </div>
+
+        <div class="border right">
+            <h1>Done List: </h1>
+            <input type="text" id="done-item" placeholder="find ..." />
+            <button id="removeAll">Remover All</button>
+            <ul id="done-list" class="list">
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
